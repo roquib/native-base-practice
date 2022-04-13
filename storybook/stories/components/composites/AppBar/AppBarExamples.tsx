@@ -1,14 +1,6 @@
-import React from 'react';
-import {
-  AppBar,
-  IconButton,
-  Icon,
-  Text,
-  HStack,
-  VStack,
-  Button,
-} from 'native-base';
-import { TouchableOpacity } from 'react-native';
+import React from "react";
+import { IconButton, Icon, Text, HStack, VStack, Button } from "native-base";
+import { TouchableOpacity } from "react-native";
 
 export default function Examples() {
   return (
@@ -60,7 +52,7 @@ function IOSLike() {
               size={10}
               color="blue.500"
             />
-            <Text fontWeight={'bold'} color="blue.500" fontSize="md">
+            <Text fontWeight={"bold"} color="blue.500" fontSize="md">
               Back
             </Text>
           </HStack>
@@ -68,14 +60,14 @@ function IOSLike() {
       </AppBar.Left>
 
       <AppBar.Content justifyContent="center">
-        <Text isTruncated fontWeight="bold" fontSize={'lg'} color="gray.700">
+        <Text isTruncated fontWeight="bold" fontSize={"lg"} color="gray.700">
           Header
         </Text>
       </AppBar.Content>
 
       <AppBar.Right>
         <Button onPress={() => {}} colorScheme="blue" variant="ghost">
-          <Text fontWeight={'bold'} color="blue.500" fontSize="md">
+          <Text fontWeight={"bold"} color="blue.500" fontSize="md">
             Cancel
           </Text>
         </Button>

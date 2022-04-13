@@ -1,8 +1,8 @@
-import React from 'react';
-import { Accordion, Box, Icon } from 'native-base';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import React from "react";
+import { Accordion, Box, Icon } from "native-base";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-export const Example = () => {
+const Example = () => {
   return (
     <Box m={3}>
       <Accordion allowMultiple defaultIndex={[1]}>
@@ -23,7 +23,7 @@ export const Example = () => {
           {({ isExpanded }: any) => (
             <>
               <Accordion.Summary>
-                {isExpanded ? 'Fire' : 'Snow'}
+                {isExpanded ? "Fire" : "Snow"}
                 {isExpanded ? (
                   <Icon color="white" as={MaterialCommunityIcons} name="fire" />
                 ) : (
@@ -43,3 +43,4 @@ export const Example = () => {
     </Box>
   );
 };
+export default Example;

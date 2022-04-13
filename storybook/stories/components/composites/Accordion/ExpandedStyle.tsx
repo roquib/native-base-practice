@@ -1,11 +1,11 @@
-import React from 'react';
-import { Accordion, Box } from 'native-base';
-export const Example = () => {
+import React from "react";
+import { Accordion, Box } from "native-base";
+const Example = () => {
   return (
     <Box m={3}>
       <Accordion allowMultiple>
         <Accordion.Item>
-          <Accordion.Summary _expanded={{ backgroundColor: 'orange.300' }}>
+          <Accordion.Summary _expanded={{ backgroundColor: "orange.300" }}>
             Click me to see a different style
             <Accordion.Icon />
           </Accordion.Summary>
@@ -32,3 +32,4 @@ export const Example = () => {
     </Box>
   );
 };
+export default Example;

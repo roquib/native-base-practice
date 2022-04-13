@@ -1,12 +1,12 @@
-import React from 'react';
-import { Accordion, Box } from 'native-base';
-import { boolean } from '@storybook/addon-knobs';
-export const Example = () => {
+import React from "react";
+import { Accordion, Box } from "native-base";
+import { boolean } from "@storybook/addon-knobs";
+const Example = () => {
   return (
     <Box m={3}>
       <Accordion
-        allowMultiple={boolean('allowMultiple', false)}
-        allowToggle={boolean('allowToggle', false)}
+        allowMultiple={boolean("allowMultiple", false)}
+        allowToggle={boolean("allowToggle", false)}
       >
         <Accordion.Item>
           <Accordion.Summary>
@@ -48,3 +48,4 @@ export const Example = () => {
     </Box>
   );
 };
+export default Example;

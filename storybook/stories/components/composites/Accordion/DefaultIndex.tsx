@@ -1,6 +1,6 @@
-import React from 'react';
-import { Accordion, Box } from 'native-base';
-export const Example = () => {
+import React from "react";
+import { Accordion, Box } from "native-base";
+const Example = () => {
   return (
     <Box m={3}>
       <Accordion allowMultiple defaultIndex={[0, 2]}>
@@ -44,3 +44,4 @@ export const Example = () => {
     </Box>
   );
 };
+export default Example;
