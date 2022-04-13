@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Alert,
   VStack,
@@ -8,20 +8,15 @@ import {
   Box,
   Heading,
   Center,
-} from 'native-base';
+} from "native-base";
 
 export const Example = () => {
   return (
     <Center>
       <Alert w="90%" maxW="400" colorScheme="info">
-        <VStack space={1} flexShrink={1} w="100%">
-          <HStack
-            flexShrink={1}
-            space={2}
-            alignItems="center"
-            justifyContent="space-between"
-          >
-            <HStack space={2} flexShrink={1} alignItems="center">
+        <VStack space={1} w="100%">
+          <HStack space={2} alignItems="center" justifyContent="space-between">
+            <HStack space={2} alignItems="center">
               <Alert.Icon />
               <Heading fontSize="md" fontWeight="medium" color="coolGray.800">
                 We are going live in July!
@@ -31,10 +26,10 @@ export const Example = () => {
               variant="unstyled"
               _focus={{ borderWidth: 0 }}
               icon={<CloseIcon size="3" />}
-              _icon={{ color: 'coolGray.600' }}
+              _icon={{ color: "coolGray.600" }}
             />
           </HStack>
-          <Box pl="6" _text={{ color: 'coolGray.600' }}>
+          <Box pl="6" _text={{ color: "coolGray.600" }}>
             We are happy to announce that we are going live on July 28th. Get
             ready!
           </Box>

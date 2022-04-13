@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Button,
   Actionsheet,
@@ -6,7 +6,7 @@ import {
   Text,
   Box,
   Center,
-} from 'native-base';
+} from "native-base";
 
 export function Example() {
   const { isOpen, onOpen, onClose } = useDisclose();
@@ -16,7 +16,7 @@ export function Example() {
       <Actionsheet isOpen={isOpen} onClose={onClose}>
         <Actionsheet.Content>
           <Box w="100%" h={60} px={4} justifyContent="center">
-            <Text fontSize="16" color="gray.500" _dark={{ color: 'gray.300' }}>
+            <Text fontSize="16" color="gray.500" _dark={{ color: "gray.300" }}>
               Albums
             </Text>
           </Box>
@@ -24,6 +24,7 @@ export function Example() {
           <Actionsheet.Item isDisabled>Share</Actionsheet.Item>
           <Actionsheet.Item>Play</Actionsheet.Item>
           <Actionsheet.Item>Favourite</Actionsheet.Item>
+          <Actionsheet.Item>Roquib</Actionsheet.Item>
           <Actionsheet.Item>Cancel</Actionsheet.Item>
         </Actionsheet.Content>
       </Actionsheet>
