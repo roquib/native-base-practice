@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Input,
   KeyboardAvoidingView,
@@ -7,17 +7,17 @@ import {
   VStack,
   Heading,
   Center,
-} from "native-base";
-import { Platform } from "react-native";
+} from 'native-base';
+import { Platform } from 'react-native';
 
 export const Example = () => {
   return (
     <KeyboardAvoidingView
       h={{
-        base: "400px",
-        lg: "auto",
+        base: '400px',
+        lg: 'auto',
       }}
-      behavior={Platform.OS === "ios" ? "padding" : "height"}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <Center>
         <VStack flex="1" justifyContent="flex-end" w="100%" maxW="300">

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Input,
   KeyboardAvoidingView,
@@ -6,8 +6,8 @@ import {
   Button,
   VStack,
   useBreakpointValue,
-} from "native-base";
-import { Platform } from "react-native";
+} from 'native-base';
+import { Platform } from 'react-native';
 
 export const Example = () => {
   const isLargeScreen = useBreakpointValue({
@@ -18,8 +18,8 @@ export const Example = () => {
   });
   return (
     <KeyboardAvoidingView
-      h={{ base: "600px", lg: "auto" }}
-      behavior={Platform.OS === "ios" ? "padding" : "height"}
+      h={{ base: '600px', lg: 'auto' }}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       keyboardVerticalOffset={192}
     >
       {isLargeScreen ? (

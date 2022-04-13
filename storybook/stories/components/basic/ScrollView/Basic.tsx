@@ -1,5 +1,5 @@
-import React from "react";
-import { ScrollView, VStack, Center, useTheme, Heading } from "native-base";
+import React from 'react';
+import { ScrollView, VStack, Center, useTheme, Heading } from 'native-base';
 export const Example = () => {
   const { colors } = useTheme();
   return (
@@ -7,9 +7,9 @@ export const Example = () => {
       maxW="300"
       h="80"
       _contentContainerStyle={{
-        px: "20px",
-        mb: "4",
-        minW: "72",
+        px: '20px',
+        mb: '4',
+        minW: '72',
       }}
     >
       <Center mt="3" mb="4">
@@ -46,19 +46,6 @@ export const Example = () => {
           if (index >= 1 && index <= 5)
             return (
               <Center py="4" bg={`violet.${key}`}>
-                {key}
-              </Center>
-            );
-        })}
-      </VStack>
-      <Center mt="10" mb="4">
-        <Heading fontSize="2xl">Green</Heading>
-      </Center>
-      <VStack flex="1">
-        {Object.keys(colors.green).map((key, index) => {
-          if (index >= 1 && index <= 5)
-            return (
-              <Center py="4" bg={`green.${key}`}>
                 {key}
               </Center>
             );

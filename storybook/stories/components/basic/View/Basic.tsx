@@ -1,10 +1,10 @@
-import React from "react";
-import { View, Text, Heading } from "native-base";
+import React from 'react';
+import { View, Text, Heading } from 'native-base';
 export const Example = () => {
   return (
     <View>
       <Heading>
-        A component library for the{" "}
+        A component library for the{' '}
         <Heading color="emerald.400">React Ecosystem</Heading>
       </Heading>
       <Text pt="3" fontWeight="md">
