@@ -55,7 +55,7 @@ export * from "./components/composites/Skeleton";
 export * from "./components/primitives/Slider";
 export * from "./components/primitives/Spinner";
 export * from "./components/primitives/Stack";
-export * from "./components/composites/Stat";
+// export * from "./components/composites/Stat";
 export * from "./components/primitives/Switch";
 export * from "./components/composites/Tabs";
 export * from "./components/composites/Tag";
