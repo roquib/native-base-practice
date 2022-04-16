@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Stack,
   NumberInput,
@@ -7,7 +7,7 @@ import {
   NumberIncrementStepper,
   NumberDecrementStepper,
   Slider,
-} from 'native-base';
+} from "native-base";
 export const Example = () => {
   const [value, setValue] = React.useState(20);
   return (
@@ -40,3 +40,4 @@ export const Example = () => {
     </Stack>
   );
 };
+export default Example;
