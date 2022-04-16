@@ -1,5 +1,5 @@
-import React from 'react';
-import { Stack, TextField, Button, Icon } from 'native-base';
+import React from "react";
+import { Stack, TextField, Button, Icon } from "native-base";
 
 export const Example = () => {
   const [isInvalid, setIsInvalid] = React.useState(false);
@@ -30,3 +30,5 @@ export const Example = () => {
     </Stack>
   );
 };
+
+export default Example;

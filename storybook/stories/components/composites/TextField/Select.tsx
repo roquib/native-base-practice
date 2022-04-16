@@ -1,8 +1,8 @@
-import React from 'react';
-import { TextField, Select } from 'native-base';
+import React from "react";
+import { TextField, Select } from "native-base";
 
 export const Example = () => {
-  let [language, setLanguage] = React.useState<string>('');
+  let [language, setLanguage] = React.useState<string>("");
   return (
     <TextField
       component="select"
@@ -23,3 +23,5 @@ export const Example = () => {
     </TextField>
   );
 };
+
+export default Example;
