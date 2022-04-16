@@ -1,6 +1,6 @@
-import React from 'react';
-import { CircularProgress, Center, Heading } from 'native-base';
-export const Example = () => {
+import React from "react";
+import { CircularProgress, Center, Heading } from "native-base";
+const Example = () => {
   return (
     <Center>
       <Heading>Indeterminate Progress</Heading>
@@ -10,3 +10,5 @@ export const Example = () => {
     </Center>
   );
 };
+
+export default Example;

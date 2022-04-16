@@ -1,6 +1,6 @@
-import React from 'react';
-import { CircularProgress, Heading, Center, VStack } from 'native-base';
-export const Example = () => {
+import React from "react";
+import { CircularProgress, Heading, Center, VStack } from "native-base";
+const Example = () => {
   return (
     <Center>
       <Heading>Changing the sizes</Heading>
@@ -12,3 +12,5 @@ export const Example = () => {
     </Center>
   );
 };
+
+export default Example;
