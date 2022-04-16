@@ -1,5 +1,5 @@
-import React from 'react';
-import { Wrap, Center } from 'native-base';
+import React from "react";
+import { Wrap, Center } from "native-base";
 export const Example = () => {
   return (
     <Wrap space={10} align="center" direction="row">
@@ -18,3 +18,5 @@ export const Example = () => {
     </Wrap>
   );
 };
+
+export default Example;
