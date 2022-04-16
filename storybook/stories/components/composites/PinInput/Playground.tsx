@@ -1,18 +1,18 @@
-import React from 'react';
-import { PinInput } from 'native-base';
-import { select, text } from '@storybook/addon-knobs';
+import React from "react";
+import { PinInput } from "native-base";
+import { select, text } from "@storybook/addon-knobs";
 
 export const Example = () => {
   return (
     <PinInput
-      placeholder={text('placeholder', '○')}
-      size={text('Size', 'sm')}
+      placeholder={text("placeholder", "○")}
+      size={text("Size", "sm")}
       variant={select(
-        'variantType',
-        ['outline', 'underlined', 'rounded', 'filled', 'unstyled'],
-        'outline'
+        "variantType",
+        ["outline", "underlined", "rounded", "filled", "unstyled"],
+        "outline"
       )}
-      defaultValue={text('defaultValue', '96')}
+      defaultValue={text("defaultValue", "96")}
     >
       <PinInput.Field />
       <PinInput.Field />
@@ -20,3 +20,4 @@ export const Example = () => {
     </PinInput>
   );
 };
+export default Example;

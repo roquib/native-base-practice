@@ -1,5 +1,5 @@
-import React from 'react';
-import { PinInput, Stack } from 'native-base';
+import React from "react";
+import { PinInput, Stack } from "native-base";
 
 export const Example = () => {
   return (
@@ -37,3 +37,4 @@ export const Example = () => {
     </Stack>
   );
 };
+export default Example;

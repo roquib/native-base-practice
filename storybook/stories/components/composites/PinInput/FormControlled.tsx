@@ -1,5 +1,5 @@
-import React from 'react';
-import { PinInput, Center, FormControl } from 'native-base';
+import React from "react";
+import { PinInput, Center, FormControl } from "native-base";
 
 export const Example = () => {
   return (
@@ -20,3 +20,5 @@ export const Example = () => {
     </Center>
   );
 };
+
+export default Example;

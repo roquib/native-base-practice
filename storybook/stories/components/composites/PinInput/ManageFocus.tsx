@@ -1,5 +1,5 @@
-import React from 'react';
-import { PinInput } from 'native-base';
+import React from "react";
+import { PinInput } from "native-base";
 
 export const Example = () => {
   return (
@@ -11,3 +11,4 @@ export const Example = () => {
     </PinInput>
   );
 };
+export default Example;
