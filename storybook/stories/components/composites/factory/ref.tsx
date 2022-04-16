@@ -1,6 +1,6 @@
-import React from 'react';
-import { Stack, Factory, Button } from 'native-base';
-import { TextInput } from 'react-native';
+import React from "react";
+import { Stack, Factory, Button } from "native-base";
+import { TextInput } from "react-native";
 
 export const Example = () => {
   const NBInput = Factory(TextInput);
@@ -14,7 +14,7 @@ export const Example = () => {
         borderWidth="1"
         borderColor="cyan.400"
         borderRadius="md"
-        _dark={{ color: 'trueGray.200' }}
+        _dark={{ color: "trueGray.200" }}
       />
       <Button
         colorScheme="emerald"
@@ -27,3 +27,5 @@ export const Example = () => {
     </Stack>
   );
 };
+
+export default Example;
