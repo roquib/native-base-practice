@@ -1,5 +1,5 @@
-import React from 'react';
-import { VStack, HStack, Kbd, Text } from 'native-base';
+import React from "react";
+import { VStack, HStack, Kbd, Text } from "native-base";
 
 export const Example = () => {
   return (
@@ -22,3 +22,4 @@ export const Example = () => {
     </VStack>
   );
 };
+export default Example;
